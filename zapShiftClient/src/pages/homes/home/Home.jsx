@@ -1,7 +1,15 @@
+import Banner from "../banner/Banner";
+import OurServices from "../ourServices/OurServices";
+import WorkSteps from "../workSteps/WorkSteps";
+
 const Home = () => {
   return (
-    <div>
-      <h1>this is a home pages</h1>
+    <div className="space-y-10">
+      <Banner />
+
+      <WorkSteps />
+
+      <OurServices />
     </div>
   );
 };
